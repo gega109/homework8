@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 1920px;
+    height: 1080px;
+    border: 16px solid #D8D8D8;
+    background: #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.main_div {
+    width: 360px;
+    height: 528px;
+    border-radius: 16px;
+    background: var(--White, #FFF);
+    position: relative;
+}
+.info_div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 24px 24px 24px;
+    gap: 24px;
+    
+}
+.strawberry {
+    width: 360px;
+    height: 216px;
+    border-radius: 16px 16px 0px 0px;
+}
+.eclipse {
+    position: absolute;
+    right: 9px;
+    top: 6px;
+    z-index: 2;
+}
+.info_img {
+    position: absolute;
+    right: 32px;
+    top: 23px;
+    z-index: 3;
+}
+.heading {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 25px;
+    letter-spacing: 0.24px;
+    width: 198px;
+}
+.fire_div {
+    width: 24px;
+    height: 24px;
+    background-color:#F8593B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    right: 57px;
+    padding-right: 1px;
+}
+.fire {
+    padding-left: 1px;
+}
+.wheat {
+    width: 24px;
+    height: 24px;
+    background-color:#FFC22B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top:250px;
+    right:24px;
+}
+.leaf {
+    width: 24px;
+    height: 24px;
+    background-color:#2ECC71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    right: 90px;
+}
+.ininfo_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.about {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    color: #6E798C;
+    
+}
+.info {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 25px;
+    color: #A5ADBB;
+}
+.price_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.newprice {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 25px;
+    color: #081F32;
+}
+.oldprice {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 25px;
+    color: #F8593B;
+    text-decoration: line-through;
+    padding-right: 30px;
+}
+.in_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+}
+button {
+    width: 114px;
+    height: 44px;
+    border: none;
+    background-color: #2ECC71;
+    color: white;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px 178.571%;
+    letter-spacing: 2.52px;
+    border-radius: 5px;
+}
